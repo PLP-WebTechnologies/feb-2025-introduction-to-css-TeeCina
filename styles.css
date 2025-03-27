@@ -109,8 +109,9 @@ img{
 
 table{
     width: 100%;
-    border: 3px solid #333;
-    margin-block: 30px;
+    border-collapse: collapse;
+    border-radius: 10px;
+    margin: 15px;
 }
 
 th{
@@ -134,11 +135,250 @@ tr:nth-child(odd){
 }
 
 .footer{
-    background-color: #d2d2d2;
+    background-color: #646464;
     color: #fafafa;
     padding: 10px;
     border-radius: 10px;
     margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     font-style: italic;
     font-family: serif;
 }
+.footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.footer ul li{
+    display:grid;
+    margin-right: 10px;
+}
+
+.footer form{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.footer form input[type="text"]{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    padding: 5px;
+    margin: 5px;
+}
+
+.footer form input[type="submit"]{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    padding: 5px;
+    margin: 5px;
+    background-color: #333;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+.footer form input[type="reset"]{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    padding: 5px;
+    margin: 5px;
+    background-color: #333;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+.footer form input[type="submit"]:hover{
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.footer form input[type="submit"]:active{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="submit"]:focus{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="submit"]:visited{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="submit"]:visited:hover{
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.footer form input[type="submit"]:visited:active{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="submit"]:visited:focus{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="submit"]:visited:visited{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="submit"]:visited:visited:hover{
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.footer form input[type="submit"]:visited:visited:active{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="submit"]:visited:visited:focus{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="submit"]:hover:active{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="reset"]:hover{
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.footer form input[type="reset"]:active{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="reset"]:focus{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="reset"]:visited{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="reset"]:visited:hover{
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.footer form input[type="reset"]:visited:active{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="reset"]:visited:focus{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="reset"]:visited:visited{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="reset"]:visited:visited:hover{
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.footer form input[type="reset"]:visited:visited:active{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="reset"]:visited:visited:focus{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="reset"]:hover:active{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="reset"]:visited:visited:active{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="reset"]:visited:visited:focus{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="reset"]:hover:active{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="reset"]:visited:visited:active{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="reset"]:visited:visited:focus{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="reset"]:hover:active{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="reset"]:visited:visited:active{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="reset"]:visited:visited:focus{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="reset"]:hover:active{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="reset"]:visited:visited:active{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="reset"]:visited:visited:focus{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer form input[type="reset"]:hover:active{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.footer p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+color: #fff;
+}
+/* End of styles.css */

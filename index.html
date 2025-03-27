@@ -13,6 +13,9 @@
         </div>
 
         <div id="navBar">
+            <div></div>
+<div></div>
+<div></div>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="login.php">Login</a></li>
@@ -60,7 +63,29 @@
     </tr>
 </table>
 
-    <div class="footer">
+<div class="footer">
+    <br>
+    <h3> Our contact details are as follows:</h3>
+    <ul>
+        <li>Phone: +27 123 456 789</li>
+        <li>Email: info@company.com</li>
+        <li>Address: 753 Technol Street, Cape Town, South Africa</li>
+    </ul>
+    <br>
+    <br>
+
+        <h3> Have an enquiry? Feel free to contact us by filling in the form below</h3>
+<form action="contact.php" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" required></textarea><br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
+<br>
         <p>&copy; 2025, All rights reserved. </p>
             <p>(NOTE:Disclaimer this website is for educational purposes only!)</p>
     </div>
